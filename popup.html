@@ -1,0 +1,63 @@
+<!--pretty much useless till now
+style.js has code that can be used to add toggle and send variables
+style.css is the stlesheet pretty straight forward-->
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="stye.css">
+
+
+</head>
+
+<body>
+
+    <script src="style.js"></script>
+    <center>
+        <div><br>
+            <h2>Toggle switch to start/stop extension</h2>
+            <i><b>please enter values in all the fields for this to work properly.</b><br><br>
+            </i>
+            <form>
+                <label class="switch">
+  <input type="checkbox" id="cheo">
+  <span class="slider round"></span>
+</label>
+
+                <br>
+                <hr><br>
+                <b>enter edunext username and pass:</b><br><br>
+                <b> <label for="name">username:</label></b>
+
+                <input type="text" id="name" name="name" autocomplete="off" disabled>
+                <br><br>
+
+                <b> <label for="pass">password:</label></b>
+
+
+                <input type="password" id="pass" name="pass" autocomplete="off" disabled>
+
+                <br><br>
+                <hr><br><br>
+
+                <b><label for="time">how many minutes before end of class do you want to leave:</label></b><br><br>
+
+                <input type="number" id="time" name="time" autocomplete="off" disabled value=0>
+
+                <br><br>
+
+                <b><label for="time2">how many minutes to wait before joining next class<br>(keep the value more than that of the above field):</label></b> <br><br>
+
+                <input type="number" id="time2" name="time2" autocomplete="off" disabled value=8>
+
+                <br><br>
+                <hr><i><br><i><b>(last time's variables are mostly saved)</i> </b><br><br>
+                <b>always make sure that you are logged into your google account while using this.</b></i><br><br>
+                <button id="butn" disabled class="butn"><b>UPDATE</b></button>
+
+
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>

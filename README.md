@@ -1,6 +1,6 @@
-# dps-auto-attend
+# auto-meet-scheduler
 
-dps pune auto attendance for online class 
+This is custom made for a specific organization's website.
 
 extension for google chrome
 
